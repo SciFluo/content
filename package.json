@@ -1,0 +1,45 @@
+{
+	"name": "@scifluo/content",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "科荧——世界观网站内容",
+	"license": "CC-BY-NC-SA-4.0",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SciFluo/content.git"
+	},
+	"homepage": "https://SciFluo.SharpIce.top",
+	"bugs": {
+		"url": "https://github.com/SciFluo/content/issues"
+	},
+	"author": {
+		"name": "SharpIce",
+		"email": "VupRbl@163.com",
+		"url": "https://SharpIce.top"
+	},
+	"engines": {
+		"node": ">=20"
+	},
+	"scripts": {
+		"pre": "prettier . --write"
+	},
+	"devDependencies": {
+		"prettier": "3.2.5"
+	},
+	"prettier": {
+		"semi": true,
+		"tabWidth": 1,
+		"useTabs": true,
+		"endOfLine": "lf",
+		"singleQuote": false,
+		"overrides": [
+			{
+				"files": "*.md",
+				"options": {
+					"tabWidth": 1
+				}
+			}
+		]
+	}
+}

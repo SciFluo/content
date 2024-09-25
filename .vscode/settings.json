@@ -1,0 +1,16 @@
+{
+	"editor.formatOnSave": true,
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"tailwindCSS.includeLanguages": {
+		"md": "html"
+	},
+	"markdownlint.config": {
+		"MD033": false,
+		"MD041": false
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}

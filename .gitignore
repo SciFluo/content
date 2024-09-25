@@ -1,0 +1,11 @@
+# 编辑器文件
+.DS_Store
+
+# 日志
+*.log
+
+# Node模块
+node_modules
+
+# pnpm
+pnpm-lock.yaml
